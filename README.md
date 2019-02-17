@@ -4,16 +4,16 @@ The utility works in a bash terminal environment. This utility is used to test a
 
 # Flags
 
-| short flag | full flag  | description                                                                        |
-| ----       | ----       | ----                                                                               |
-| `-t`       | `--table`  | db table. '-tt' - show all tables                                                  |
-| `-tw`      | `--two`    | DB table take two pictures and highlight the difference                            |
-| `-w`       | `--write`  | l - print lines, t - table                                                         |
-| `-s`       | `--sql`    | direct input sql query                                                             |
-| `-b`       | `--build`  | create record (-t <table>) <col>::<val>//<col>::<val> (the first value is Unique!) |
-| `-u`       | `--update` | update record (-t <table>) <id>//<col>::<val>//<col>::<val>                        |
-| `-d`       | `--delete` | delete entry (-t <table>) <id>,<id>,<id>                                           |
-| `-c`       | `--clear`  | clear the table [bool]                                                             |
+| short flag | full flag  | description                                                                            |
+| ----       | ----       | ----                                                                                   |
+| `-t`       | `--table`  | db table. '-tt' - show all tables                                                      |
+| `-tw`      | `--two`    | DB table take two pictures and highlight the difference                                |
+| `-w`       | `--write`  | l - print lines, t - table                                                             |
+| `-s`       | `--sql`    | direct input sql query                                                                 |
+| `-b`       | `--build`  | create record (-t `<table>`) `<col>::<val>//<col>::<val>` (the first value is Unique!) |
+| `-u`       | `--update` | update record (-t `<table>`) `<id>//<col>::<val>//<col>::<val>`                        |
+| `-d`       | `--delete` | delete entry (-t `<table>`) `<id>,<id>,<id>`                                           |
+| `-c`       | `--clear`  | clear the table [bool]                                                                 |
 
 # Command Examples
 
